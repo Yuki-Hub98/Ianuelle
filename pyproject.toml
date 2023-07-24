@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ianuelle"
+version = "0.1.0"
+description = "Bot for discord using gpt chat"
+authors = ["Wellyson Yago M Silva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+discord = "^2.3.1"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
